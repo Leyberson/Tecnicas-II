@@ -1,3 +1,4 @@
 /.pyteste_chace
 
-*/__pycache__
+backend/__pycache__
+testes_unitarios/__pycache__
