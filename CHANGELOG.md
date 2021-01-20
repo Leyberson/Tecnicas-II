@@ -6,6 +6,13 @@ e este projeto adere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html
 
 ## [Unreleased]
 
+## [0.1.1] - 2020-12-14
+### Modified
+- Arquivo cartao_credito.py alterado para armazenar os valores de várias faturas
+
+
+## [Unreleased]
+
 ## [0.1.0] - 2020-12-14
 ### Added
 - Arquivo conta.py contendo as funcionalidades de uma conta.
