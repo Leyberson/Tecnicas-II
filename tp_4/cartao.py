@@ -6,11 +6,12 @@ class Cartao:
 
     def comprar(self, valor, total_de_parcelas):
         self.limite_utilizado+=valor
-        acrescimo = valor/total_de_parcelas
-        self.valor_fatura += acrescimo
+        try:
+            acrescimo = valor/total_de_parcelas
+        except:
+            acrescimo = valor
+        finally:
+            self.valor_fatura += acrescimo
 
     def get_valor_fatura(self):
-        if self.limite_utilizado == 0:
-            return 0
-        else:
-            return self.valor_fatura
+        return self.valor_fatura
